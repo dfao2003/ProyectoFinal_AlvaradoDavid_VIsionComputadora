@@ -1,0 +1,86 @@
+tor@tor-Lenovo:/media/tor/Datos/nuevo_dataset/nueva_data/DatasetFlecha/dataset$ opencv_traincascade -data cascade1900/ -vec positiveflecha6060.vec -bg negatives.txt -numPos 1900 -numNeg 6000 -w 60 -h 60 -numStages 12 -featureType LBP
+PARAMETERS:
+cascadeDirName: cascade1900/
+vecFileName: positiveflecha6060.vec
+bgFileName: negatives.txt
+numPos: 1900
+numNeg: 6000
+numStages: 12
+precalcValBufSize[Mb] : 1024
+precalcIdxBufSize[Mb] : 1024
+acceptanceRatioBreakValue : -1
+stageType: BOOST
+featureType: LBP
+sampleWidth: 60
+sampleHeight: 60
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+Number of unique features given windowSize [60,60] : 348100
+
+===== TRAINING 0-stage =====
+<BEGIN
+POS count : consumed   1900 : 1900
+NEG count : acceptanceRatio    6000 : 1
+Precalculation time: 10
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.997895|0.0428333|
++----+---------+---------+
+END>
+Training until now has taken 0 days 0 hours 6 minutes 50 seconds.
+
+===== TRAINING 1-stage =====
+<BEGIN
+POS count : consumed   1900 : 1904
+NEG count : acceptanceRatio    6000 : 0.115507
+Precalculation time: 6
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.998947|   0.0535|
++----+---------+---------+
+END>
+Training until now has taken 0 days 0 hours 13 minutes 16 seconds.
+
+===== TRAINING 2-stage =====
+<BEGIN
+POS count : consumed   1900 : 1906
+NEG count : acceptanceRatio    6000 : 0.00803766
+Precalculation time: 6
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.996316|    0.075|
++----+---------+---------+
+END>
+Training until now has taken 0 days 0 hours 20 minutes 35 seconds.
+
+===== TRAINING 3-stage =====
+<BEGIN
+POS count : consumed   1900 : 1914
+NEG count : acceptanceRatio    6000 : 0.001239039EG current samples: 2080
+Precalculation time: 6
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2| 0.998947|0.0613333|
++----+---------+---------+
+END>
+Training until now has taken 0 days 0 hours 33 minutes 25 seconds.
+
+===== TRAINING 4-stage =====
+<BEGIN
+POS count : consumed   1900 : 1916

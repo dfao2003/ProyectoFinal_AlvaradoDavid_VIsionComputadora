@@ -1,0 +1,2 @@
+opencv_traincascade -data cascade2000/ -vec positiveflecha6060.vec -bg negatives.txt -numPos 2000 -numNeg 6000 -w 60 -h 60 -numStages 12 -featureType LBP
+opencv_traincascade -data cascade2000/ -vec positivepeatonal6060.vec -bg negatives.txt -numPos 2000 -numNeg 6000 -w 60 -h 60 -numStages 12 -featureType LBP
